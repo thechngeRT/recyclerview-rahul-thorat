@@ -1,21 +1,21 @@
 package com.example.horizontallist;
 
 public class App {
-    int image;
-    String name;
+    private String mImageUrl;
+    private String mCreator;
 
 
-    public App(int image, String name, int i) {
-        this.image = image;
-        this.name = name;
+    public App(String image, String name) {
+        this.mImageUrl = image;
+        this.mCreator = name;
     }
 
-    public int getImage() {
-        return image;
+    public String getImageUrl() {
+        return mImageUrl;
     }
 
-    public String getName() {
-        return name;
+    public String getCreator() {
+        return mCreator;
+    }
     }
 
-}
